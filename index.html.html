@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bruno Ryan — Desenvolvedor(a) Front-end &amp; Back-end</title>
+<meta name="description" content="Portfólio de Bruno Ryan, desenvolvedor(a) front-end e back-end.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+
+<!-- BARRA DE TÍTULO (estilo janela de editor) -->
+<div class="title-bar">
+  <div class="title-bar__dots" aria-hidden="true">
+    <span class="dot dot--red"></span>
+    <span class="dot dot--yellow"></span>
+    <span class="dot dot--green"></span>
+  </div>
+  <span class="title-bar__path">portfolio - bruno-ryan </span>
+</div>
+
+<!-- BARRA DE ABAS / NAVEGAÇÃO -->
+<header class="tab-bar" id="tab-bar">
+  <nav class="tabs" id="tabs" aria-label="Navegação principal">
+    <a href="#inicio" class="tab is-active" data-tab="inicio">
+      <span class="tab__dot tab__dot--html" aria-hidden="true"></span>inicio
+    </a>
+    <a href="#sobre" class="tab" data-tab="sobre">
+      <span class="tab__dot tab__dot--js" aria-hidden="true"></span>sobre
+    </a>
+    <a href="#habilidades" class="tab" data-tab="habilidades">
+      <span class="tab__dot tab__dot--json" aria-hidden="true"></span>habilidades
+    </a>
+    <a href="#experiencia" class="tab" data-tab="experiencia">
+      <span class="tab__dot tab__dot--md" aria-hidden="true"></span>experiencia
+    </a>
+    <a href="#contato" class="tab" data-tab="contato">
+      <span class="tab__dot tab__dot--txt" aria-hidden="true"></span>contato
+    </a>
+  </nav>
+  <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="tabs">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+  <!-- INÍCIO / HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero__code" role="img" aria-label="Bloco de código mostrando: nome Nome Sobrenome, cargo Desenvolvedor front-end e back-end, stack JavaScript, Python,  disponível verdadeiro">
+      <div class="hero__gutter" aria-hidden="true">
+        <span>1</span><span>2</span>
+      </div>
+      <pre class="hero__pre" aria-hidden="true"><code id="typed-code"></code><span class="cursor">▌</span></pre>
+    </div>
+
+    <h1 class="hero__name">Bruno Ryan</h1>
+    <p class="hero__role">Desenvolvedor Front-end &amp; Back-end</p>
+    <p class="hero__tagline">Transformo ideias em interfaces funcionais — e funcionalidades em experiências simples de usar.</p>
+
+    <div class="hero__actions">
+      <a href="#experiencia" class="btn btn--primary">Ver experiência</a>
+      <a href="#contato" class="btn btn--ghost">Falar comigo</a>
+    </div>
+
+    <div class="hero__social">
+      <a href="https://github.com/BrunoMota-debug" class="pill" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/in/bruno-mota-b236ab41a/" class="pill" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://mail.google.com/mail/?view=cm&to=brunoryannn.dev@gmail.com" class="pill" target="_blank" rel="noopener">E-mail</a>
+    </div>
+  </section>
+
+  <!-- SOBRE MIM -->
+  <section id="sobre" class="section">
+    <div class="section__head">
+      <span class="section__eyebrow">// sobre</span>
+      <h2 class="section__title">Sobre mim</h2>
+    </div>
+    <div class="about">
+      <div class="foto-container">
+        <img src="imagens/eu-icon.png" alt="Foto de Bruno Ryan" class="about__photo">
+      </div>
+      <div class="about__text">
+        <p> Sou um desenvolvedor com experiência em <strong>html, css, javascript </strong>- <strong>react</strong> e <strong>python, java, C#</strong>. Do problema à solução: desenvolvimento focado em simplicidade, lógica e código limpo. </p>
+        <p>Atualmente estudo focado em back-end e busco oportunidades para aplicar o que aprendo em projetos reais, trabalhando em equipe e aprendendo continuamente.</p>
+        <ul class="about__facts">
+          <li><span aria-hidden="true">📍</span> Cascavel, Brasil</li>
+          <li><span aria-hidden="true">🎓</span> Tecnologia em Análise e Desenvolvimento de Sistemas</li>
+          <li><span aria-hidden="true">💼</span> Disponível para [estágio / freelance / CLT]</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="habilidades" class="section">
+    <div class="section__head">
+      <span class="section__eyebrow">// habilidades</span>
+      <h2 class="section__title">Habilidades</h2>
+    </div>
+
+    <div class="skills">
+      <div class="skills__group">
+        <h3 class="skills__category">"front-end"</h3>
+        <ul class="skills__list">
+          <li class="skill"><span class="skill__dot skill__dot--blue"></span>HTML5</li>
+          <li class="skill"><span class="skill__dot skill__dot--blue"></span>CSS3</li>
+          <li class="skill"><span class="skill__dot skill__dot--blue"></span>JavaScript</li>
+        </ul>
+      </div>
+      <div class="skills__group">
+        <h3 class="skills__category">"back-end"</h3>
+        <ul class="skills__list">
+          <li class="skill"><span class="skill__dot skill__dot--green"></span>Node.js</li>
+          <li class="skill"><span class="skill__dot skill__dot--green"></span>Python</li>
+        </ul>
+      </div>
+      <div class="skills__group">
+        <h3 class="skills__category">"ferramentas"</h3>
+        <ul class="skills__list">
+          <li class="skill"><span class="skill__dot skill__dot--amber"></span>Git &amp; GitHub</li>
+          <li class="skill"><span class="skill__dot skill__dot--amber"></span>VS Code</li>
+        </ul>
+      </div>
+    </div>
+    <p class="skills__note"></p>
+  </section>
+
+  <!-- EXPERIÊNCIA / FORMAÇÃO -->
+  <section id="experiencia" class="section">
+    <div class="section__head">
+      <span class="section__eyebrow">// experiencia</span>
+      <h2 class="section__title">Experiência &amp; Formação</h2>
+    </div>
+
+    <div class="timeline-block">
+      <h3 class="timeline-block__title">Experiência profissional</h3>
+      <ol class="timeline">
+        <li class="commit">
+          <span class="commit__hash">Aux. de Escritório </span>
+          <div class="commit__body">
+            <p class="commit__title"> Auxiliar de Escritório — Mercado do Óleo</p>
+            <p class="commit__date">09/25 - Atual</p>
+            <ul>
+              <li>Gestão operacional e supervisão</li>
+              <li>Controle de fluxo de mercadorias</li>
+            </ul>
+          </div>
+        </li>
+        <li class="commit">
+          <span class="commit__hash">Vendas</span>
+          <div class="commit__body">
+            <p class="commit__title"> Vendedor — Máquinas Agroeste</p>
+            <p class="commit__date"> 02/22 - 07/25</p>
+            <ul>
+              <li>Liderança e desenvolvimento de equipe focada em metas de vendas.</li>
+              <li>Gestão de equipe e metas.</li>
+              <li>Gestão estratégica de estoque.</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+
+    <div class="timeline-block">
+      <h3 class="timeline-block__title">Formação acadêmica</h3>
+      <ol class="timeline">
+        <li class="commit">
+          <span class="commit__hash">Formação</span>
+          <div class="commit__body">
+            <p class="commit__title">Tecnólogo em Análise e Desenvolvimento de Sistemas — Univel</p>
+            <p class="commit__date">Atual</p>
+            <ul>
+            <li>Foco no desenvolvimento de sistemas, engenharia de software e banco de dados para criar soluções computacionais eficientes.</li>
+          </ul>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" class="section">
+    <div class="section__head">
+      <span class="section__eyebrow">// contato</span>
+      <h2 class="section__title">Contato</h2>
+    </div>
+
+    <div class="contact">
+      <div class="contact__prompt">
+        <p class="contact__line"><span class="prompt-symbol">❯</span> Tem um projeto ou vaga em mente?</p>
+        <p class="contact__lead">Envie uma mensagem pelo formulário ou me chame diretamente:</p>
+        <ul class="contact__links">
+          <li><a href="https://mail.google.com/mail/?view=cm&to=brunoryannn.dev@gmail.com" target="_blank" rel="noopener noreferrer"><span class="prompt-symbol">$</span> open email <span class="contact__detail">brunoryannn.dev@gmail.com</span></a></li>
+          <li><a href="https://github.com/BrunoMota-debug" target="_blank" rel="noopener noreferrer"><span class="prompt-symbol">$</span> open github <span class="contact__detail">github.com/BrunoMota-debug</span></a></li>
+          <li><a href="https://www.linkedin.com/in/bruno-mota-b236ab41a/" target="_blank" rel="noopener noreferrer"><span class="prompt-symbol">$</span> open linkedin <span class="contact__detail">linkedin.com/in/Bruno-mota</span></a></li>
+        </ul>
+      </div>
+
+      <form class="contact__form" id="contact-form" novalidate>
+        <div class="field">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" autocomplete="name" required>
+        </div>
+        <div class="field">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" autocomplete="email" required>
+        </div>
+        <div class="field">
+          <label for="message">Mensagem</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary">Enviar mensagem</button>
+        <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </section>
+</main>
+
+<!-- BARRA DE STATUS -->
+<footer class="status-bar">
+  <div class="status-bar__left">
+    <span>⎇ main</span>
+    <span>✓ sem erros</span>
+  </div>
+  <div class="status-bar__right">
+    <span class="status-bar__hide-mobile">UTF-8</span>
+    <span class="status-bar__hide-mobile">HTML · CSS · JS</span>
+    <span id="year"></span>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
